@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sports",
-      "handler": "sports.find",
+      "path": "/posts",
+      "handler": "posts.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sports/count",
-      "handler": "sports.count",
+      "path": "/posts/count",
+      "handler": "posts.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sports/:id",
-      "handler": "sports.findOne",
+      "path": "/posts/:id",
+      "handler": "posts.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/sports",
-      "handler": "sports.create",
+      "path": "/posts",
+      "handler": "posts.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sports/:id",
-      "handler": "sports.update",
+      "path": "/posts/:id",
+      "handler": "posts.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sports/:id",
-      "handler": "sports.delete",
+      "path": "/posts/:id",
+      "handler": "posts.delete",
       "config": {
         "policies": []
       }
